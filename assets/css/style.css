@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.genera{
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.casella{
+    width: calc(100% / 10);
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+}
+
+body{
+    background-color: orange;
+}
+
+.azzurro{
+    background-color:deepskyblue ;
+}
