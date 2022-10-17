@@ -1,6 +1,6 @@
 //L'utente clicca su un bottone che genererà una griglia di gioco quadrata. Ogni cella ha un numero progressivo, da 1 a 100.
 
-const genera = document.querySelector('genera')
+const genera = document.querySelector('.genera')
 genera.addEventListener('click', function(){
 /* seleziono il container */
 let container = document.querySelector(".container")
@@ -8,6 +8,7 @@ let container = document.querySelector(".container")
 let numeroCaselle = 100
 /* seleziono i div 'casella' */
 let listaCaselle = document.getElementsByClassName('casella')
+console.log(listaCaselle);
 /* richiamo la funzione per generare la casella */
 caselleGenerator(numeroCaselle,container)
 /* scrivo la funzione per generare la casella */
